@@ -1,8 +1,8 @@
 from openai import OpenAI
 
 # 初始化OpenAI客户端
-# client = OpenAI(api_key="sk-cca1cc4dcdc04e7aa843f688e6184652", base_url="https://api.deepseek.com")
-client = OpenAI(api_key="sk-6fb3bab97b874d65801f650b88713946", base_url="https://api.deepseek.com")
+
+client = OpenAI(api_key="sk-", base_url="https://api.deepseek.com")
 
 # 角色设定和规则
 role_definition = """
